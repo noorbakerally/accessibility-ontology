@@ -21,7 +21,7 @@ access:numberOfDisabledParkingSpaces a owl:DatatypeProperty, rdfs:Property ;
     rdfs:isDefinedBy access: .
 
 access:nearbyParkingType a owl:ObjectProperty, rdfs:Property ;
-    rdfs:label "type of nearby parking@en" ;
+    rdfs:label "type of nearby parking"@en ;
     rdfs:domain geo:SpatialThing ;
     rdfs:range parkingType:ParkingType ;
     rdfs:isDefinedBy access: .
